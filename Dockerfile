@@ -7,6 +7,9 @@ WORKDIR /app
 # Copia o código e as ferramentas de build
 COPY . /app
 
+# --- CORREÇÃO: Adiciona permissão de execução ao Maven Wrapper (AGORA NO LOCAL CORRETO) ---
+RUN chmod +x ./mvnw
+
 # Roda o Build do Maven (o mesmo comando que resultou em BUILD SUCCESS)
 RUN ./mvnw -Pprod package -DskipTests
 
