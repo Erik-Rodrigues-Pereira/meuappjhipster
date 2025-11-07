@@ -25,6 +25,8 @@ springdoc:
     enabled: false
 ---
 management:
+  server:
+    port: ${PORT:8080}
   endpoints:
     web:
       base-path: /management
@@ -167,6 +169,7 @@ spring:
       console-available: true
 
 server:
+  port: ${PORT:8080}
   servlet:
     session:
       cookie:
