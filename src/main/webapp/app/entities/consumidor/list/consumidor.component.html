@@ -14,647 +14,632 @@
   <!-- DIVISOR 1: Separa o cabeçalho do conteúdo principal com margem -->
   <hr class="my-4" />
 
-  @if (consumidors().length === 0) {
-    <div class="alert alert-warning" id="no-result">
-      <span>Nenhum Lei de Consumidor encontrado</span>
-    </div>
-  } @else {
-    <!-- PRIMEIRA LEI: PRODUTO DEFEITUOSO (ART. 18) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Produto Defeituoso (Art. 18)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90 (CDC)</h6>
-            <!-- O texto original da lei -->
-            <p class="card-text">
-              Os fornecedores de produtos de consumo duráveis ou não duráveis respondem solidariamente pelos vícios de qualidade ou
-              quantidade que os tornem impróprios ou inadequados ao consumo a que se destinam ou lhes diminuam o valor, assim como por
-              aqueles decorrentes da disparidade, com as indicações constantes do recipiente, da embalagem, rotulagem ou mensagem
-              publicitária, respeitadas as variações decorrentes de sua natureza, podendo o consumidor exigir a substituição das partes
-              viciadas.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Produto Defeituoso</h5>
-            <!-- A versão traduzida e simplificada da lei -->
-            <p class="card-text">
-              Se o seu produto (novo ou usado) tem um defeito, tanto a loja quanto a fábrica são igualmente responsáveis pela solução.
-            </p>
-            <p class="card-text">Se o conserto demorar mais de 30 dias, você pode escolher: produto novo, dinheiro de volta ou desconto.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <!-- Imagem: 75% da largura, centralizada. -->
-            <img src="\content\images\CON1.svg" class="img-fluid w-75 my-3" alt="Calendário de 30 dias" />
-          </div>
+  <!-- PRIMEIRA LEI: PRODUTO DEFEITUOSO (ART. 18) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Produto Defeituoso (Art. 18)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90 (CDC)</h6>
+          <!-- O texto original da lei -->
+          <p class="card-text">
+            Os fornecedores de produtos de consumo duráveis ou não duráveis respondem solidariamente pelos vícios de qualidade ou quantidade
+            que os tornem impróprios ou inadequados ao consumo a que se destinam ou lhes diminuam o valor, assim como por aqueles
+            decorrentes da disparidade, com as indicações constantes do recipiente, da embalagem, rotulagem ou mensagem publicitária,
+            respeitadas as variações decorrentes de sua natureza, podendo o consumidor exigir a substituição das partes viciadas.
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA PRIMEIRA LEI -->
 
-    <!-- DIVISOR 2: SEGUNDA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- SEGUNDA LEI: DIREITO DE ARREPENDIMENTO (ART. 49) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Direito Arrependimento (Art. 49)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <!-- O texto original da lei -->
-            <p class="card-text">
-              O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou
-              serviço, sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial,
-              especialmente por telefone ou a domicílio.
-            </p>
-            <p class="card-text">
-              Parágrafo único. Se o consumidor exercitar o direito de arrependimento, os valores eventualmente pagos, a qualquer título,
-              durante o prazo de reflexão, serão devolvidos, de imediato, monetariamente atualizados.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Desistência em 7 Dias</h5>
-            <!-- A versão traduzida e simplificada da lei -->
-            <p class="card-text">
-              Você tem o direito de se arrepender da compra e desistir do contrato em até 7 dias (contados a partir do recebimento do
-              produto ou da assinatura do serviço).
-            </p>
-            <p class="card-text">
-              Este direito só vale para compras feitas à distância — ou seja, fora de uma loja física (pela internet, telefone, ou em
-              casa/trabalho). Se você comprou o produto diretamente no balcão da loja, esta regra não se aplica.
-            </p>
-            <p class="card-text">
-              Ao desistir, a loja ou fornecedor deve devolver imediatamente e com correção todos os valores que você pagou, inclusive frete
-              ou outras taxas.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <!-- Imagem: 75% da largura, centralizada. -->
-            <img src="\content\images\CON2.svg" class="img-fluid w-75 my-3" alt="Calendário de 30 dias" />
-          </div>
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Produto Defeituoso</h5>
+          <!-- A versão traduzida e simplificada da lei -->
+          <p class="card-text">
+            Se o seu produto (novo ou usado) tem um defeito, tanto a loja quanto a fábrica são igualmente responsáveis pela solução.
+          </p>
+          <p class="card-text">Se o conserto demorar mais de 30 dias, você pode escolher: produto novo, dinheiro de volta ou desconto.</p>
         </div>
       </div>
     </div>
-    <!-- FIM DA SEGUNDA LEI -->
 
-    <!-- DIVISOR 3: TERCEIRA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- TERCEIRA LEI: PUBLICIDADE ENGANOSA (ART. 37) -->
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Publicidade Enganosa (Art. 37)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              É proibida toda publicidade enganosa ou abusiva. É enganosa qualquer modalidade de informação ou comunicação de caráter
-              publicitário, inteira ou parcialmente falsa, ou, por qualquer outro modo, mesmo por omissão, capaz de induzir o consumidor a
-              erro a respeito da natureza, características, qualidade, quantidade, propriedades, origem, preço e quaisquer outros dados
-              sobre produtos e serviços.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Promessa é Dívida</h5>
-            <p class="card-text">
-              A lei proíbe qualquer propaganda que seja falsa ou que esconda informações importantes, fazendo você comprar algo diferente do
-              prometido.
-            </p>
-            <p class="card-text">
-              Se for enganosa, você tem o direito de exigir que o fornecedor entregue exatamente o que foi prometido, trocar o produto ou
-              pedir o dinheiro de volta. O que é prometido, vira contrato!
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON3.svg" class="img-fluid w-75 my-3" alt="Sinal de Proibido em um Outdoor" />
-          </div>
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <!-- Imagem: 75% da largura, centralizada. -->
+          <img src="\content\images\CON1.svg" class="img-fluid w-75 my-3" alt="Calendário de 30 dias" />
         </div>
       </div>
     </div>
-    <!-- FIM DA TERCEIRA LEI -->
+  </div>
+  <!-- FIM DA PRIMEIRA LEI -->
 
-    <!-- DIVISOR 4: QUARTA LEI -->
-    <hr class="my-4" />
+  <!-- DIVISOR 2: SEGUNDA LEI -->
+  <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
+  <div class="alert alert-dark"></div>
 
-    <hr class="my-4" />
+  <hr class="my-4" />
 
-    <!-- QUARTA LEI: COBRANÇA ABUSIVA (ART. 42) -->
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Cobrança de Dívidas (Art. 42)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              Na cobrança de débitos, o consumidor que não cumpriu o prazo não será exposto a ridículo, nem será submetido a qualquer tipo
-              de constrangimento ou ameaça.
-            </p>
-            <p class="card-text">
-              Parágrafo único. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que
-              pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Cobrança: Qual é o Limite?</h5>
-            <p class="card-text">
-              A empresa pode cobrar, mas não pode te expor ao ridículo, ligar para vizinhos/parentes, nem te constranger. A cobrança deve
-              ser discreta e respeitosa.
-            </p>
-            <p class="card-text">
-              Se for cobrado um valor indevido e você pagar, a empresa tem que te devolver o dobro do que foi cobrado a mais (com juros e
-              correção). É a regra do "dobro do indébito".
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON4.svg" class="img-fluid w-75 my-3" alt="Sinal de Proibido com Telefone ou Martelo de Juiz" />
-          </div>
+  <!-- SEGUNDA LEI: DIREITO DE ARREPENDIMENTO (ART. 49) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Direito Arrependimento (Art. 49)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <!-- O texto original da lei -->
+          <p class="card-text">
+            O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou
+            serviço, sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial,
+            especialmente por telefone ou a domicílio.
+          </p>
+          <p class="card-text">
+            Parágrafo único. Se o consumidor exercitar o direito de arrependimento, os valores eventualmente pagos, a qualquer título,
+            durante o prazo de reflexão, serão devolvidos, de imediato, monetariamente atualizados.
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA QUARTA LEI -->
 
-    <!-- DIVISOR 5: QUINTA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- QUINTA LEI: DANO POR FATO DO PRODUTO (ART. 12) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Dano por Fato do Produto (Art. 12)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              O fabricante, o produtor, o construtor, nacional ou estrangeiro, e o importador respondem, independentemente da existência de
-              culpa, pela reparação dos danos causados aos consumidores por defeitos decorrentes de projeto, fabricação, construção,
-              montagem, fórmulas, manipulação, apresentação ou acondicionamento de seus produtos.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Acidente com Produto: Quem Paga?</h5>
-            <p class="card-text">
-              Se um produto tiver um defeito que cause um acidente ou dano grave (ex: o celular explode e te machuca), o fabricante é
-              diretamente responsável por reparar todos os danos (materiais e morais).
-            </p>
-            <p class="card-text">Você não precisa provar que o fabricante agiu com culpa; basta provar o dano e o defeito.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON5.svg" class="img-fluid w-75 my-3" alt="Produto com defeito quebrado" />
-          </div>
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Desistência em 7 Dias</h5>
+          <!-- A versão traduzida e simplificada da lei -->
+          <p class="card-text">
+            Você tem o direito de se arrepender da compra e desistir do contrato em até 7 dias (contados a partir do recebimento do produto
+            ou da assinatura do serviço).
+          </p>
+          <p class="card-text">
+            Este direito só vale para compras feitas à distância — ou seja, fora de uma loja física (pela internet, telefone, ou em
+            casa/trabalho). Se você comprou o produto diretamente no balcão da loja, esta regra não se aplica.
+          </p>
+          <p class="card-text">
+            Ao desistir, a loja ou fornecedor deve devolver imediatamente e com correção todos os valores que você pagou, inclusive frete ou
+            outras taxas.
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA QUINTA LEI -->
 
-    <!-- DIVISOR 6: SEXTA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- SEXTA LEI: CONTRATOS DE ADESÃO (ART. 54) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Contratos de Adesão (Art. 54)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              Contrato de adesão é aquele cujas cláusulas tenham sido aprovadas pela autoridade competente ou estabelecidas unilateralmente
-              pelo fornecedor, sem que o consumidor possa discutir ou modificar substancialmente seu conteúdo.
-            </p>
-            <p class="card-text">
-              § 4º As cláusulas que implicarem limitação de direito do consumidor deverão ser redigidas com destaque, permitindo sua
-              imediata e fácil compreensão.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Contrato: Destaque nas Regras</h5>
-            <p class="card-text">
-              Contratos prontos (de adesão, como de bancos ou telefonia) precisam ter as cláusulas que limitam seus direitos ou que são mais
-              importantes em destaque (negrito ou fonte maior).
-            </p>
-            <p class="card-text">
-              Cláusulas em "letras miúdas" ou que você não teve chance de ler/discutir podem ser contestadas judicialmente, sendo nulas se
-              colocarem o consumidor em desvantagem exagerada.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON6.svg" class="img-fluid w-75 my-3" alt="Lupa sobre contrato com texto em destaque" />
-          </div>
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <!-- Imagem: 75% da largura, centralizada. -->
+          <img src="\content\images\CON2.svg" class="img-fluid w-75 my-3" alt="Calendário de 30 dias" />
         </div>
       </div>
     </div>
-    <!-- FIM DA SEXTA LEI -->
+  </div>
+  <!-- FIM DA SEGUNDA LEI -->
 
-    <!-- DIVISOR 7: SÉTIMA LEI -->
-    <hr class="my-4" />
+  <!-- DIVISOR 3: TERCEIRA LEI -->
+  <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
+  <div class="alert alert-dark"></div>
 
-    <hr class="my-4" />
+  <hr class="my-4" />
 
-    <!-- SÉTIMA LEI: PRAZOS PARA RECLAMAÇÃO (ART. 26) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Prazos de Reclamação (Art. 26)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento
-              de serviço e de produtos não duráveis; II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis.
-            </p>
-            <p class="card-text">
-              § 3º Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Garantia Obrigatória (30 ou 90 dias)</h5>
-            <p class="card-text">
-              Você tem um prazo obrigatório por lei (Garantia Legal) para reclamar de qualquer defeito. Este prazo é de 90 dias para
-              produtos duráveis (celular, TV, carro) e 30 dias para produtos não duráveis (alimentos, serviços de baixo uso).
-            </p>
-            <p class="card-text">
-              Se o defeito for "oculto" (só aparece depois de um tempo), o prazo só começa a contar a partir do dia em que você o descobre.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON7.svg" class="img-fluid w-75 my-3" alt="Calendário marcando 90 dias" />
-          </div>
+  <!-- TERCEIRA LEI: PUBLICIDADE ENGANOSA (ART. 37) -->
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Publicidade Enganosa (Art. 37)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            É proibida toda publicidade enganosa ou abusiva. É enganosa qualquer modalidade de informação ou comunicação de caráter
+            publicitário, inteira ou parcialmente falsa, ou, por qualquer outro modo, mesmo por omissão, capaz de induzir o consumidor a
+            erro a respeito da natureza, características, qualidade, quantidade, propriedades, origem, preço e quaisquer outros dados sobre
+            produtos e serviços.
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA SÉTIMA LEI -->
 
-    <!-- DIVISOR 8: OITAVA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- OITAVA LEI: COBRANÇA DE SERVIÇOS ESSENCIAIS (ART. 22) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Serviços Essenciais (Art. 22)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              Os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento,
-              são obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Corte de Luz/Água</h5>
-            <p class="card-text">
-              Empresas de serviços essenciais (como água, luz e gás) são obrigadas a fornecer serviços de forma contínua e eficiente.
-            </p>
-            <p class="card-text">
-              A interrupção só pode ocorrer com aviso prévio e em casos específicos, como falta de pagamento. Mesmo não cumprindo o prazo, o
-              consumidor não pode ter o serviço cortado de surpresa, nem nos finais de semana ou feriados.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON8.svg" class="img-fluid w-75 my-3" alt="Eletricidade e água com sinal de proibido" />
-          </div>
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Promessa é Dívida</h5>
+          <p class="card-text">
+            A lei proíbe qualquer propaganda que seja falsa ou que esconda informações importantes, fazendo você comprar algo diferente do
+            prometido.
+          </p>
+          <p class="card-text">
+            Se for enganosa, você tem o direito de exigir que o fornecedor entregue exatamente o que foi prometido, trocar o produto ou
+            pedir o dinheiro de volta. O que é prometido, vira contrato!
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA OITAVA LEI -->
 
-    <!-- DIVISOR 9: NONA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- NONA LEI: DIREITO AO ORÇAMENTO PRÉVIO (ART. 40) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Orçamento Prévio (Art. 40)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              O fornecedor de serviço será obrigado a entregar ao consumidor orçamento prévio discriminando o valor da mão-de-obra, dos
-              materiais e equipamentos a serem empregados, as condições de pagamento, bem como as datas de início e término dos serviços.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Orçamento Detalhado</h5>
-            <p class="card-text">
-              Antes de contratar qualquer serviço (mecânico, eletricista, obras, etc.), o prestador é obrigado a entregar um orçamento
-              detalhado e por escrito.
-            </p>
-            <p class="card-text">
-              Este documento deve discriminar custos de mão de obra, materiais, condições de pagamento e a data de entrega do serviço. O
-              orçamento é válido por 10 dias a partir do recebimento, a não ser que as partes combinem outro prazo.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON9.svg" class="img-fluid w-75 my-3" alt="Pessoa assinando um documento com caneta" />
-          </div>
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON3.svg" class="img-fluid w-75 my-3" alt="Sinal de Proibido em um Outdoor" />
         </div>
       </div>
     </div>
-    <!-- FIM DA NONA LEI -->
+  </div>
+  <!-- FIM DA TERCEIRA LEI -->
 
-    <!-- DIVISOR 10: DÉCIMA LEI -->
-    <hr class="my-4" />
+  <!-- DIVISOR 4: QUARTA LEI -->
+  <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
+  <div class="alert alert-dark"></div>
 
-    <hr class="my-4" />
+  <hr class="my-4" />
 
-    <!-- DÉCIMA LEI: PROTEÇÃO CONTRA CLÁUSULAS ABUSIVAS (ART. 51) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Cláusulas Abusivas (Art. 51)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que: I -
-              impossibilitem, exonerem ou atenuem a responsabilidade do fornecedor por vícios de qualquer natureza dos produtos e serviços;
-              IV - estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam
-              incompatíveis com a boa-fé ou a equidade.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Contratos Injustos são Nulos</h5>
-            <p class="card-text">
-              Qualquer cláusula em um contrato que anule seus direitos, transfira a responsabilidade do fornecedor para você, ou te coloque
-              em desvantagem exagerada, é considerada nula (sem valor legal).
-            </p>
-            <p class="card-text">
-              Por exemplo, cláusulas que proíbem você de ser processado em sua própria cidade, obrigando-o a se deslocar para um local
-              distante.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON10.svg" class="img-fluid w-75 my-3" alt="Mão quebrando um cadeado ou corrente" />
-          </div>
+  <!-- QUARTA LEI: COBRANÇA ABUSIVA (ART. 42) -->
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Cobrança de Dívidas (Art. 42)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            Na cobrança de débitos, o consumidor que não cumpriu o prazo não será exposto a ridículo, nem será submetido a qualquer tipo de
+            constrangimento ou ameaça.
+          </p>
+          <p class="card-text">
+            Parágrafo único. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que
+            pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável.
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA DÉCIMA LEI -->
 
-    <!-- DIVISOR 11: DÉCIMA PRIMEIRA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- DÉCIMA PRIMEIRA LEI: ACESSO À INFORMAÇÃO SOBRE DÉBITOS (ART. 43) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Informação sobre Débitos (Art. 43)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              O consumidor, sem prejuízo do disposto no art. 86, terá acesso às informações existentes em cadastros, fichas, registros e
-              dados pessoais e de consumo arquivados sobre ele, bem como sobre as respectivas fontes.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Saber Quem Te Negativou</h5>
-            <p class="card-text">
-              Você tem o direito de saber quais informações estão registradas sobre você em serviços de proteção ao crédito (como SPC e
-              Serasa) e quem solicitou essa inclusão. O aviso sobre a negativação deve ser feito por escrito antes da inclusão do seu nome.
-            </p>
-            <p class="card-text">Se a dívida for paga, a empresa tem até 5 dias úteis para retirar seu nome da lista de devedores.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON11.svg" class="img-fluid w-75 my-3" alt="Pessoa lendo um relatório de crédito" />
-          </div>
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Cobrança: Qual é o Limite?</h5>
+          <p class="card-text">
+            A empresa pode cobrar, mas não pode te expor ao ridículo, ligar para vizinhos/parentes, nem te constranger. A cobrança deve ser
+            discreta e respeitosa.
+          </p>
+          <p class="card-text">
+            Se for cobrado um valor indevido e você pagar, a empresa tem que te devolver o dobro do que foi cobrado a mais (com juros e
+            correção). É a regra do "dobro do indébito".
+          </p>
         </div>
       </div>
     </div>
-    <!-- FIM DA DÉCIMA PRIMEIRA LEI -->
 
-    <!-- DIVISOR 12: DÉCIMA SEGUNDA LEI -->
-    <hr class="my-4" />
-
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <!-- DÉCIMA SEGUNDA LEI: OFERTA E APRESENTAÇÃO (ART. 30/35) -->
-    <div class="row mb-4">
-      <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Obrigatoriedade da Oferta (Art. 30/35)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
-            <p class="card-text">
-              Art. 30. Toda informação ou publicidade, suficientemente precisa, veiculada por qualquer forma ou meio de comunicação com
-              relação a produtos e serviços oferecidos ou apresentados, obriga o fornecedor que a fizer veicular ou dela se utilizar e
-              integra o contrato que vier a ser celebrado.
-            </p>
-            <p class="card-text">
-              Art. 35. Se o fornecedor de produtos ou serviços recusar cumprimento à oferta, o consumidor poderá exigir o cumprimento
-              forçado da obrigação ou rescindir o contrato com devolução dos valores.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 2 (4/12): Tradução Simplificada -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">A Oferta Tem Força de Contrato</h5>
-            <p class="card-text">
-              O que for prometido em uma oferta, panfleto ou publicidade se torna parte do contrato e é obrigatório. Se um produto está
-              anunciado com preço, a loja não pode recusar a venda alegando falta de estoque ou erro de preço.
-            </p>
-            <p class="card-text">
-              Caso a loja se recuse a cumprir a oferta, você pode exigir o cumprimento forçado da venda, pegar um produto equivalente ou
-              pedir o dinheiro de volta com indenização.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CON12.svg" class="img-fluid w-75 my-3" alt="Sinal de 'Temos Estoque' sobre um produto" />
-          </div>
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON4.svg" class="img-fluid w-75 my-3" alt="Sinal de Proibido com Telefone ou Martelo de Juiz" />
         </div>
       </div>
     </div>
-    <!-- FIM DA DÉCIMA SEGUNDA LEI -->
+  </div>
+  <!-- FIM DA QUARTA LEI -->
 
-         
-  }
+  <!-- DIVISOR 5: QUINTA LEI -->
+  <hr class="my-4" />
 
-  @if (consumidors().length > 0) {
-       
-    <!-- Aqui pode haver a lógica de paginação, etc., se necessário -->
-     
-  }
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- QUINTA LEI: DANO POR FATO DO PRODUTO (ART. 12) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Dano por Fato do Produto (Art. 12)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            O fabricante, o produtor, o construtor, nacional ou estrangeiro, e o importador respondem, independentemente da existência de
+            culpa, pela reparação dos danos causados aos consumidores por defeitos decorrentes de projeto, fabricação, construção, montagem,
+            fórmulas, manipulação, apresentação ou acondicionamento de seus produtos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Acidente com Produto: Quem Paga?</h5>
+          <p class="card-text">
+            Se um produto tiver um defeito que cause um acidente ou dano grave (ex: o celular explode e te machuca), o fabricante é
+            diretamente responsável por reparar todos os danos (materiais e morais).
+          </p>
+          <p class="card-text">Você não precisa provar que o fabricante agiu com culpa; basta provar o dano e o defeito.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON5.svg" class="img-fluid w-75 my-3" alt="Produto com defeito quebrado" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA QUINTA LEI -->
+
+  <!-- DIVISOR 6: SEXTA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- SEXTA LEI: CONTRATOS DE ADESÃO (ART. 54) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Contratos de Adesão (Art. 54)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            Contrato de adesão é aquele cujas cláusulas tenham sido aprovadas pela autoridade competente ou estabelecidas unilateralmente
+            pelo fornecedor, sem que o consumidor possa discutir ou modificar substancialmente seu conteúdo.
+          </p>
+          <p class="card-text">
+            § 4º As cláusulas que implicarem limitação de direito do consumidor deverão ser redigidas com destaque, permitindo sua imediata
+            e fácil compreensão.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Contrato: Destaque nas Regras</h5>
+          <p class="card-text">
+            Contratos prontos (de adesão, como de bancos ou telefonia) precisam ter as cláusulas que limitam seus direitos ou que são mais
+            importantes em destaque (negrito ou fonte maior).
+          </p>
+          <p class="card-text">
+            Cláusulas em "letras miúdas" ou que você não teve chance de ler/discutir podem ser contestadas judicialmente, sendo nulas se
+            colocarem o consumidor em desvantagem exagerada.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON6.svg" class="img-fluid w-75 my-3" alt="Lupa sobre contrato com texto em destaque" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA SEXTA LEI -->
+
+  <!-- DIVISOR 7: SÉTIMA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- SÉTIMA LEI: PRAZOS PARA RECLAMAÇÃO (ART. 26) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Prazos de Reclamação (Art. 26)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento de
+            serviço e de produtos não duráveis; II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis.
+          </p>
+          <p class="card-text">
+            § 3º Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Garantia Obrigatória (30 ou 90 dias)</h5>
+          <p class="card-text">
+            Você tem um prazo obrigatório por lei (Garantia Legal) para reclamar de qualquer defeito. Este prazo é de 90 dias para produtos
+            duráveis (celular, TV, carro) e 30 dias para produtos não duráveis (alimentos, serviços de baixo uso).
+          </p>
+          <p class="card-text">
+            Se o defeito for "oculto" (só aparece depois de um tempo), o prazo só começa a contar a partir do dia em que você o descobre.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON7.svg" class="img-fluid w-75 my-3" alt="Calendário marcando 90 dias" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA SÉTIMA LEI -->
+
+  <!-- DIVISOR 8: OITAVA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- OITAVA LEI: COBRANÇA DE SERVIÇOS ESSENCIAIS (ART. 22) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Serviços Essenciais (Art. 22)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            Os órgãos públicos, por si ou suas empresas, concessionárias, permissionárias ou sob qualquer outra forma de empreendimento, são
+            obrigados a fornecer serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Corte de Luz/Água</h5>
+          <p class="card-text">
+            Empresas de serviços essenciais (como água, luz e gás) são obrigadas a fornecer serviços de forma contínua e eficiente.
+          </p>
+          <p class="card-text">
+            A interrupção só pode ocorrer com aviso prévio e em casos específicos, como falta de pagamento. Mesmo não cumprindo o prazo, o
+            consumidor não pode ter o serviço cortado de surpresa, nem nos finais de semana ou feriados.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON8.svg" class="img-fluid w-75 my-3" alt="Eletricidade e água com sinal de proibido" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA OITAVA LEI -->
+
+  <!-- DIVISOR 9: NONA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- NONA LEI: DIREITO AO ORÇAMENTO PRÉVIO (ART. 40) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Orçamento Prévio (Art. 40)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            O fornecedor de serviço será obrigado a entregar ao consumidor orçamento prévio discriminando o valor da mão-de-obra, dos
+            materiais e equipamentos a serem empregados, as condições de pagamento, bem como as datas de início e término dos serviços.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Orçamento Detalhado</h5>
+          <p class="card-text">
+            Antes de contratar qualquer serviço (mecânico, eletricista, obras, etc.), o prestador é obrigado a entregar um orçamento
+            detalhado e por escrito.
+          </p>
+          <p class="card-text">
+            Este documento deve discriminar custos de mão de obra, materiais, condições de pagamento e a data de entrega do serviço. O
+            orçamento é válido por 10 dias a partir do recebimento, a não ser que as partes combinem outro prazo.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON9.svg" class="img-fluid w-75 my-3" alt="Pessoa assinando um documento com caneta" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA NONA LEI -->
+
+  <!-- DIVISOR 10: DÉCIMA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- DÉCIMA LEI: PROTEÇÃO CONTRA CLÁUSULAS ABUSIVAS (ART. 51) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Cláusulas Abusivas (Art. 51)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que: I -
+            impossibilitem, exonerem ou atenuem a responsabilidade do fornecedor por vícios de qualquer natureza dos produtos e serviços; IV
+            - estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam
+            incompatíveis com a boa-fé ou a equidade.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Contratos Injustos são Nulos</h5>
+          <p class="card-text">
+            Qualquer cláusula em um contrato que anule seus direitos, transfira a responsabilidade do fornecedor para você, ou te coloque em
+            desvantagem exagerada, é considerada nula (sem valor legal).
+          </p>
+          <p class="card-text">
+            Por exemplo, cláusulas que proíbem você de ser processado em sua própria cidade, obrigando-o a se deslocar para um local
+            distante.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON10.svg" class="img-fluid w-75 my-3" alt="Mão quebrando um cadeado ou corrente" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA DÉCIMA LEI -->
+
+  <!-- DIVISOR 11: DÉCIMA PRIMEIRA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- DÉCIMA PRIMEIRA LEI: ACESSO À INFORMAÇÃO SOBRE DÉBITOS (ART. 43) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Informação sobre Débitos (Art. 43)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            O consumidor, sem prejuízo do disposto no art. 86, terá acesso às informações existentes em cadastros, fichas, registros e dados
+            pessoais e de consumo arquivados sobre ele, bem como sobre as respectivas fontes.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Saber Quem Te Negativou</h5>
+          <p class="card-text">
+            Você tem o direito de saber quais informações estão registradas sobre você em serviços de proteção ao crédito (como SPC e
+            Serasa) e quem solicitou essa inclusão. O aviso sobre a negativação deve ser feito por escrito antes da inclusão do seu nome.
+          </p>
+          <p class="card-text">Se a dívida for paga, a empresa tem até 5 dias úteis para retirar seu nome da lista de devedores.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON11.svg" class="img-fluid w-75 my-3" alt="Pessoa lendo um relatório de crédito" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA DÉCIMA PRIMEIRA LEI -->
+
+  <!-- DIVISOR 12: DÉCIMA SEGUNDA LEI -->
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <!-- DÉCIMA SEGUNDA LEI: OFERTA E APRESENTAÇÃO (ART. 30/35) -->
+  <div class="row mb-4">
+    <!-- COLUNA 1 (4/12): Texto Original (Juridiquês) -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Obrigatoriedade da Oferta (Art. 30/35)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.078/90.</h6>
+          <p class="card-text">
+            Art. 30. Toda informação ou publicidade, suficientemente precisa, veiculada por qualquer forma ou meio de comunicação com
+            relação a produtos e serviços oferecidos ou apresentados, obriga o fornecedor que a fizer veicular ou dela se utilizar e integra
+            o contrato que vier a ser celebrado.
+          </p>
+          <p class="card-text">
+            Art. 35. Se o fornecedor de produtos ou serviços recusar cumprimento à oferta, o consumidor poderá exigir o cumprimento forçado
+            da obrigação ou rescindir o contrato com devolução dos valores.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 2 (4/12): Tradução Simplificada -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">A Oferta Tem Força de Contrato</h5>
+          <p class="card-text">
+            O que for prometido em uma oferta, panfleto ou publicidade se torna parte do contrato e é obrigatório. Se um produto está
+            anunciado com preço, a loja não pode recusar a venda alegando falta de estoque ou erro de preço.
+          </p>
+          <p class="card-text">
+            Caso a loja se recuse a cumprir a oferta, você pode exigir o cumprimento forçado da venda, pegar um produto equivalente ou pedir
+            o dinheiro de volta com indenização.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLUNA 3 (4/12): Card de Exemplo Prático/Visual -->
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CON12.svg" class="img-fluid w-75 my-3" alt="Sinal de 'Temos Estoque' sobre um produto" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM DA DÉCIMA SEGUNDA LEI -->
 </div>

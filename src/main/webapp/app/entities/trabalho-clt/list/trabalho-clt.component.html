@@ -12,542 +12,534 @@
   <jhi-alert-error />
   <jhi-alert />
 
-  @if (trabalhoCLTS().length === 0) {
-    <div class="alert alert-warning" id="no-result">
-      <span>Nenhum Trabalho CLT encontrado</span>
-    </div>
-  } @else {
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Jornada de Trabalho (Art. 58)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              A duração normal do trabalho, para os empregados em qualquer atividade privada, não excederá de 8 (oito) horas diárias, e 44
-              (quarenta e quatro) semanais, facultada a compensação de horários e a redução da jornada.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Horário Máximo</h5>
-            <p class="card-text">A regra geral é que o empregado deve trabalhar, no máximo, 8 horas por dia e 44 horas por semana.</p>
-            <p class="card-text">
-              É permitido fazer acordos de compensação, como trabalhar 8 horas e 48 minutos de segunda a sexta para folgar o sábado,
-              mantendo a média de 44 horas semanais.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT1.svg" class="img-fluid w-75 my-3" alt="Relógio marcando 8 horas" />
-          </div>
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Jornada de Trabalho (Art. 58)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            A duração normal do trabalho, para os empregados em qualquer atividade privada, não excederá de 8 (oito) horas diárias, e 44
+            (quarenta e quatro) semanais, facultada a compensação de horários e a redução da jornada.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Hora Extra (Art. 59)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              A duração diária do trabalho poderá ser acrescida de horas extras, em número não excedente a 2 (duas), mediante acordo
-              individual, convenção coletiva ou acordo coletivo de trabalho.
-            </p>
-            <p class="card-text">§ 1º A remuneração da hora extra será, no mínimo, 50% (cinquenta por cento) superior à da hora normal.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Adicional de 50%</h5>
-            <p class="card-text">Você pode fazer, no máximo, 2 horas extras por dia. Isso deve ser acordado previamente com a empresa.</p>
-            <p class="card-text">
-              A hora extra deve ser paga com um adicional de, no mínimo, 50% sobre o valor da sua hora normal de trabalho. Em domingos e
-              feriados, esse adicional costuma ser de 100%.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT2.svg" class="img-fluid w-75 my-3" alt="Sinal de mais (+) 50%" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Horário Máximo</h5>
+          <p class="card-text">A regra geral é que o empregado deve trabalhar, no máximo, 8 horas por dia e 44 horas por semana.</p>
+          <p class="card-text">
+            É permitido fazer acordos de compensação, como trabalhar 8 horas e 48 minutos de segunda a sexta para folgar o sábado, mantendo
+            a média de 44 horas semanais.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">D.S.R (Art. 67)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              Será assegurado a todo empregado um descanso semanal de 24 (vinte e quatro) horas consecutivas, o qual, salvo motivo de
-              conveniência pública ou necessidade imperiosa do serviço, deverá coincidir com o domingo, no todo ou em parte.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Folga Paga</h5>
-            <p class="card-text">
-              Todo trabalhador tem direito a 24 horas consecutivas de descanso remunerado (a folga é paga, o DSR). Idealmente, essa folga
-              deve ser aos domingos.
-            </p>
-            <p class="card-text">
-              Se você trabalha no domingo, tem direito a receber o dia em dobro (100% de adicional) ou ter uma folga compensatória em outro
-              dia da semana.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT3.svg" class="img-fluid w-75 my-3" alt="Símbolo de folga ou descanso" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT1.svg" class="img-fluid w-75 my-3" alt="Relógio marcando 8 horas" />
         </div>
       </div>
     </div>
-    <hr class="my-4" />
+  </div>
+  <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
+  <div class="alert alert-dark"></div>
 
-    <hr class="my-4" />
+  <hr class="my-4" />
 
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Férias (Art. 130)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              Após cada período de 12 (doze) meses de vigência do contrato de trabalho, o empregado terá direito a férias, na seguinte
-              proporção: I - 30 (trinta) dias corridos, quando não houver faltado ao serviço mais de 5 (cinco) vezes.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Direito a 30 Dias</h5>
-            <p class="card-text">
-              Após 12 meses (período aquisitivo) de trabalho, você tem direito a tirar 30 dias de férias. Se tiver mais de 5 faltas não
-              justificadas nesse período, o número de dias de férias é reduzido.
-            </p>
-            <p class="card-text">
-              Você deve receber o salário do mês mais um adicional de 1/3 (o terço constitucional de férias) antes de sair de férias.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT4.svg" class="img-fluid w-75 my-3" alt="Calendário com 30 dias marcados" />
-          </div>
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Hora Extra (Art. 59)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            A duração diária do trabalho poderá ser acrescida de horas extras, em número não excedente a 2 (duas), mediante acordo
+            individual, convenção coletiva ou acordo coletivo de trabalho.
+          </p>
+          <p class="card-text">§ 1º A remuneração da hora extra será, no mínimo, 50% (cinquenta por cento) superior à da hora normal.</p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">13º Salário (Lei 4.090/62)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 4.090/62</h6>
-            <p class="card-text">
-              Todo empregado fará jus a uma gratificação natalina, independentemente da remuneração a que fizer jus, correspondente a 1/12
-              (um doze avos) da remuneração devida em dezembro, por mês de serviço, do ano correspondente.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Gratificação Natalina</h5>
-            <p class="card-text">
-              O 13º salário é um salário extra pago no final do ano. Ele é calculado proporcionalmente aos meses trabalhados, sendo 1/12
-              avos para cada mês com mais de 15 dias de serviço.
-            </p>
-            <p class="card-text">
-              O pagamento é feito em duas parcelas: a primeira entre fevereiro e novembro e a segunda até o dia 20 de dezembro.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT5.svg" class="img-fluid w-75 my-3" alt="Símbolo de dinheiro extra (R$)" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Adicional de 50%</h5>
+          <p class="card-text">Você pode fazer, no máximo, 2 horas extras por dia. Isso deve ser acordado previamente com a empresa.</p>
+          <p class="card-text">
+            A hora extra deve ser paga com um adicional de, no mínimo, 50% sobre o valor da sua hora normal de trabalho. Em domingos e
+            feriados, esse adicional costuma ser de 100%.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Contrato de Trabalho (Art. 443)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              O contrato individual de trabalho poderá ser acordado tácita ou expressamente, verbalmente ou por escrito, por prazo
-              determinado ou indeterminado, ou para prestação de trabalho intermitente.
-            </p>
-            <p class="card-text">
-              § 1º Considera-se de prazo indeterminado aquele que suceder, dentro de 90 (noventa) dias, a contrato por prazo determinado,
-              salvo se a expiração deste decorreu de ter o empregado se desligado ou de justa causa.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Contrato Padrão</h5>
-            <p class="card-text">
-              O contrato de trabalho não precisa ser escrito para ser válido, mas o contrato por prazo indeterminado (sem data para acabar)
-              é a regra geral.
-            </p>
-            <p class="card-text">
-              Contratos por prazo determinado só podem durar no máximo 2 anos, exceto contratos de experiência (máximo 90 dias). Se o
-              contrato determinado for renovado, ele se torna automaticamente indeterminado.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT6.svg" class="img-fluid w-75 my-3" alt="Símbolo de infinito ou flecha contínua" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT2.svg" class="img-fluid w-75 my-3" alt="Sinal de mais (+) 50%" />
         </div>
       </div>
     </div>
-    <hr class="my-4" />
+  </div>
+  <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
+  <div class="alert alert-dark"></div>
 
-    <hr class="my-4" />
+  <hr class="my-4" />
 
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Aviso Prévio (Art. 487)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              Não havendo prazo estipulado, a parte que, sem justo motivo, quiser rescindir o contrato deverá avisar a outra da sua
-              resolução com a antecedência mínima de 30 (trinta) dias.
-            </p>
-            <p class="card-text">
-              Parágrafo único. A falta do aviso prévio por parte do empregador dá ao empregado o direito aos salários correspondentes ao
-              prazo do aviso, garantida sempre a integração desse período no seu tempo de serviço.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">O Aviso de 30 Dias</h5>
-            <p class="card-text">
-              Se o contrato é rescindido sem justa causa (tanto pelo empregador quanto pelo empregado), a parte que demite deve avisar a
-              outra com no mínimo 30 dias de antecedência.
-            </p>
-            <p class="card-text">
-              Se a empresa demite e não exige que você trabalhe o período de aviso, ela deve pagar os 30 dias como indenização. O tempo de
-              aviso (trabalhado ou indenizado) conta como tempo de serviço para todos os efeitos legais.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT7.svg" class="img-fluid w-75 my-3" alt="Calendário marcando 30 dias" />
-          </div>
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">D.S.R (Art. 67)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            Será assegurado a todo empregado um descanso semanal de 24 (vinte e quatro) horas consecutivas, o qual, salvo motivo de
+            conveniência pública ou necessidade imperiosa do serviço, deverá coincidir com o domingo, no todo ou em parte.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">FGTS (Lei 8.036/90)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.036/90</h6>
-            <p class="card-text">
-              Para os efeitos desta Lei, Fundo de Garantia do Tempo de Serviço (FGTS) é a importância depositada pelo empregador em conta
-              vinculada, aberta em nome do empregado, no valor correspondente a 8% (oito por cento) da remuneração paga ou devida no mês
-              anterior.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Fundo de Reserva</h5>
-            <p class="card-text">
-              Mensalmente, o empregador deve depositar em uma conta vinculada ao seu nome o valor equivalente a 8% do seu salário. Este
-              valor não é descontado do seu salário, é uma obrigação do empregador.
-            </p>
-            <p class="card-text">
-              O saque só é permitido em situações específicas, como demissão sem justa causa, aposentadoria, compra da casa própria ou
-              doenças graves.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT8.svg" class="img-fluid w-75 my-3" alt="Moedas com o símbolo de porcentagem (8%)" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Folga Paga</h5>
+          <p class="card-text">
+            Todo trabalhador tem direito a 24 horas consecutivas de descanso remunerado (a folga é paga, o DSR). Idealmente, essa folga deve
+            ser aos domingos.
+          </p>
+          <p class="card-text">
+            Se você trabalha no domingo, tem direito a receber o dia em dobro (100% de adicional) ou ter uma folga compensatória em outro
+            dia da semana.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Licença Maternidade (Art. 392)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              A empregada gestante tem direito à licença-maternidade de 120 (cento e vinte) dias, sem prejuízo do emprego e do salário.
-            </p>
-            <p class="card-text">
-              § 4º É garantido à empregada, durante a gravidez, sem prejuízo do salário e demais direitos: I - transferência de função,
-              quando as condições de saúde o exigirem; II - dispensa do horário de trabalho pelo tempo necessário para a realização de, no
-              mínimo, seis consultas médicas e exames complementares.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">120 Dias de Afastamento</h5>
-            <p class="card-text">
-              Toda empregada gestante tem direito a 120 dias (4 meses) de licença remunerada, sem perder o emprego. O salário é pago pela
-              Previdência Social (INSS).
-            </p>
-            <p class="card-text">
-              A gestante também tem direito a se ausentar do trabalho para realizar até 6 consultas e exames, sem desconto no salário, e
-              pode ser transferida de função se a saúde exigir.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT9.svg" class="img-fluid w-75 my-3" alt="Mãe e bebê sorrindo" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT3.svg" class="img-fluid w-75 my-3" alt="Símbolo de folga ou descanso" />
         </div>
       </div>
     </div>
-    <hr class="my-4" />
+  </div>
+  <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
+  <div class="alert alert-dark"></div>
 
-    <hr class="my-4" />
+  <hr class="my-4" />
 
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Justa Causa (Art. 482)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              Constituem justa causa para rescisão do contrato de trabalho pelo empregador: a) ato de improbidade; b) incontinência de
-              conduta ou mau procedimento; e) desídia no desempenho das respectivas funções; i) abandono de emprego; l) prática constante de
-              jogos de azar.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Os Motivos para Demissão Grave</h5>
-            <p class="card-text">
-              A justa causa é a demissão por falta grave, onde o trabalhador perde o direito a aviso prévio, multa de 40% do FGTS e
-              seguro-desemprego.
-            </p>
-            <p class="card-text">
-              Exemplos de justa causa incluem: roubo ou fraude (improbidade), mau comportamento grave (incontinência), preguiça ou
-              negligência constante (desídia), faltar por mais de 30 dias sem justificativa (abandono de emprego).
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT10.svg" class="img-fluid w-75 my-3" alt="Sinal de proibido (Stop)" />
-          </div>
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Férias (Art. 130)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            Após cada período de 12 (doze) meses de vigência do contrato de trabalho, o empregado terá direito a férias, na seguinte
+            proporção: I - 30 (trinta) dias corridos, quando não houver faltado ao serviço mais de 5 (cinco) vezes.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Salário Mínimo (Art. 76)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              Salário-mínimo é a contraprestação mínima devida e paga diretamente pelo empregador a todo trabalhador, inclusive ao
-              trabalhador rural, sem distinção de sexo, por dia normal de serviço, e capaz de satisfazer, em determinada época e região do
-              País, as suas necessidades normais de alimentação, habitação, vestuário, higiene, e transporte.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">O Valor Base</h5>
-            <p class="card-text">
-              É o menor valor que um empregador pode pagar a um trabalhador no país, estabelecido por lei federal anualmente. O objetivo é
-              garantir o mínimo para suprir as necessidades básicas do trabalhador e sua família.
-            </p>
-            <p class="card-text">O valor deve ser o mesmo para todos os trabalhadores, sem distinção de sexo, idade ou cor.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT11.svg" class="img-fluid w-75 my-3" alt="Símbolo de salário R$" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Direito a 30 Dias</h5>
+          <p class="card-text">
+            Após 12 meses (período aquisitivo) de trabalho, você tem direito a tirar 30 dias de férias. Se tiver mais de 5 faltas não
+            justificadas nesse período, o número de dias de férias é reduzido.
+          </p>
+          <p class="card-text">
+            Você deve receber o salário do mês mais um adicional de 1/3 (o terço constitucional de férias) antes de sair de férias.
+          </p>
         </div>
       </div>
     </div>
-    <hr class="my-4" />
 
-    <div class="alert alert-dark"></div>
-
-    <hr class="my-4" />
-
-    <div class="row mb-4">
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-primary">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Adicional Noturno (Art. 73)</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
-            <p class="card-text">
-              Salvo nos casos de revezamento semanal ou quinzenal, o trabalho noturno terá remuneração superior à do diurno e, para esse
-              efeito, sua remuneração terá um acréscimo de 20% (vinte por cento), pelo menos, sobre a hora diurna.
-            </p>
-            <p class="card-text">
-              § 1º A hora do trabalho noturno será computada como de 52 (cinquenta e dois) minutos e 30 (trinta) segundos.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-success">
-          <div class="card-body">
-            <h5 class="card-title text-success">Trabalho da Noite</h5>
-            <p class="card-text">
-              O trabalho realizado entre as 22h de um dia e as 5h do dia seguinte é considerado noturno (em áreas urbanas) e deve ser pago
-              com, no mínimo, 20% a mais do que o valor da hora diurna.
-            </p>
-            <p class="card-text">
-              Outro detalhe é que a hora noturna é "reduzida": 52 minutos e 30 segundos de trabalho equivalem a 1 hora normal. Ou seja, você
-              trabalha menos tempo para completar a jornada.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="card h-100 border-warning">
-          <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
-            <img src="\content\images\CLT12.svg" class="img-fluid w-75 my-3" alt="Lua e 20% de adicional" />
-          </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT4.svg" class="img-fluid w-75 my-3" alt="Calendário com 30 dias marcados" />
         </div>
       </div>
     </div>
-         
-  }
-  @if (trabalhoCLTS().length > 0) {}
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">13º Salário (Lei 4.090/62)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 4.090/62</h6>
+          <p class="card-text">
+            Todo empregado fará jus a uma gratificação natalina, independentemente da remuneração a que fizer jus, correspondente a 1/12 (um
+            doze avos) da remuneração devida em dezembro, por mês de serviço, do ano correspondente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Gratificação Natalina</h5>
+          <p class="card-text">
+            O 13º salário é um salário extra pago no final do ano. Ele é calculado proporcionalmente aos meses trabalhados, sendo 1/12 avos
+            para cada mês com mais de 15 dias de serviço.
+          </p>
+          <p class="card-text">
+            O pagamento é feito em duas parcelas: a primeira entre fevereiro e novembro e a segunda até o dia 20 de dezembro.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT5.svg" class="img-fluid w-75 my-3" alt="Símbolo de dinheiro extra (R$)" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Contrato de Trabalho (Art. 443)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            O contrato individual de trabalho poderá ser acordado tácita ou expressamente, verbalmente ou por escrito, por prazo determinado
+            ou indeterminado, ou para prestação de trabalho intermitente.
+          </p>
+          <p class="card-text">
+            § 1º Considera-se de prazo indeterminado aquele que suceder, dentro de 90 (noventa) dias, a contrato por prazo determinado,
+            salvo se a expiração deste decorreu de ter o empregado se desligado ou de justa causa.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Contrato Padrão</h5>
+          <p class="card-text">
+            O contrato de trabalho não precisa ser escrito para ser válido, mas o contrato por prazo indeterminado (sem data para acabar) é
+            a regra geral.
+          </p>
+          <p class="card-text">
+            Contratos por prazo determinado só podem durar no máximo 2 anos, exceto contratos de experiência (máximo 90 dias). Se o contrato
+            determinado for renovado, ele se torna automaticamente indeterminado.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT6.svg" class="img-fluid w-75 my-3" alt="Símbolo de infinito ou flecha contínua" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Aviso Prévio (Art. 487)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            Não havendo prazo estipulado, a parte que, sem justo motivo, quiser rescindir o contrato deverá avisar a outra da sua resolução
+            com a antecedência mínima de 30 (trinta) dias.
+          </p>
+          <p class="card-text">
+            Parágrafo único. A falta do aviso prévio por parte do empregador dá ao empregado o direito aos salários correspondentes ao prazo
+            do aviso, garantida sempre a integração desse período no seu tempo de serviço.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">O Aviso de 30 Dias</h5>
+          <p class="card-text">
+            Se o contrato é rescindido sem justa causa (tanto pelo empregador quanto pelo empregado), a parte que demite deve avisar a outra
+            com no mínimo 30 dias de antecedência.
+          </p>
+          <p class="card-text">
+            Se a empresa demite e não exige que você trabalhe o período de aviso, ela deve pagar os 30 dias como indenização. O tempo de
+            aviso (trabalhado ou indenizado) conta como tempo de serviço para todos os efeitos legais.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT7.svg" class="img-fluid w-75 my-3" alt="Calendário marcando 30 dias" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">FGTS (Lei 8.036/90)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Lei nº 8.036/90</h6>
+          <p class="card-text">
+            Para os efeitos desta Lei, Fundo de Garantia do Tempo de Serviço (FGTS) é a importância depositada pelo empregador em conta
+            vinculada, aberta em nome do empregado, no valor correspondente a 8% (oito por cento) da remuneração paga ou devida no mês
+            anterior.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Fundo de Reserva</h5>
+          <p class="card-text">
+            Mensalmente, o empregador deve depositar em uma conta vinculada ao seu nome o valor equivalente a 8% do seu salário. Este valor
+            não é descontado do seu salário, é uma obrigação do empregador.
+          </p>
+          <p class="card-text">
+            O saque só é permitido em situações específicas, como demissão sem justa causa, aposentadoria, compra da casa própria ou doenças
+            graves.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT8.svg" class="img-fluid w-75 my-3" alt="Moedas com o símbolo de porcentagem (8%)" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Licença Maternidade (Art. 392)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            A empregada gestante tem direito à licença-maternidade de 120 (cento e vinte) dias, sem prejuízo do emprego e do salário.
+          </p>
+          <p class="card-text">
+            § 4º É garantido à empregada, durante a gravidez, sem prejuízo do salário e demais direitos: I - transferência de função, quando
+            as condições de saúde o exigirem; II - dispensa do horário de trabalho pelo tempo necessário para a realização de, no mínimo,
+            seis consultas médicas e exames complementares.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">120 Dias de Afastamento</h5>
+          <p class="card-text">
+            Toda empregada gestante tem direito a 120 dias (4 meses) de licença remunerada, sem perder o emprego. O salário é pago pela
+            Previdência Social (INSS).
+          </p>
+          <p class="card-text">
+            A gestante também tem direito a se ausentar do trabalho para realizar até 6 consultas e exames, sem desconto no salário, e pode
+            ser transferida de função se a saúde exigir.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT9.svg" class="img-fluid w-75 my-3" alt="Mãe e bebê sorrindo" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Justa Causa (Art. 482)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            Constituem justa causa para rescisão do contrato de trabalho pelo empregador: a) ato de improbidade; b) incontinência de conduta
+            ou mau procedimento; e) desídia no desempenho das respectivas funções; i) abandono de emprego; l) prática constante de jogos de
+            azar.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Os Motivos para Demissão Grave</h5>
+          <p class="card-text">
+            A justa causa é a demissão por falta grave, onde o trabalhador perde o direito a aviso prévio, multa de 40% do FGTS e
+            seguro-desemprego.
+          </p>
+          <p class="card-text">
+            Exemplos de justa causa incluem: roubo ou fraude (improbidade), mau comportamento grave (incontinência), preguiça ou negligência
+            constante (desídia), faltar por mais de 30 dias sem justificativa (abandono de emprego).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT10.svg" class="img-fluid w-75 my-3" alt="Sinal de proibido (Stop)" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Salário Mínimo (Art. 76)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            Salário-mínimo é a contraprestação mínima devida e paga diretamente pelo empregador a todo trabalhador, inclusive ao trabalhador
+            rural, sem distinção de sexo, por dia normal de serviço, e capaz de satisfazer, em determinada época e região do País, as suas
+            necessidades normais de alimentação, habitação, vestuário, higiene, e transporte.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">O Valor Base</h5>
+          <p class="card-text">
+            É o menor valor que um empregador pode pagar a um trabalhador no país, estabelecido por lei federal anualmente. O objetivo é
+            garantir o mínimo para suprir as necessidades básicas do trabalhador e sua família.
+          </p>
+          <p class="card-text">O valor deve ser o mesmo para todos os trabalhadores, sem distinção de sexo, idade ou cor.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT11.svg" class="img-fluid w-75 my-3" alt="Símbolo de salário R$" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+
+  <div class="alert alert-dark"></div>
+
+  <hr class="my-4" />
+
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Adicional Noturno (Art. 73)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Decreto-Lei nº 5.452/43</h6>
+          <p class="card-text">
+            Salvo nos casos de revezamento semanal ou quinzenal, o trabalho noturno terá remuneração superior à do diurno e, para esse
+            efeito, sua remuneração terá um acréscimo de 20% (vinte por cento), pelo menos, sobre a hora diurna.
+          </p>
+          <p class="card-text">
+            § 1º A hora do trabalho noturno será computada como de 52 (cinquenta e dois) minutos e 30 (trinta) segundos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-success">
+        <div class="card-body">
+          <h5 class="card-title text-success">Trabalho da Noite</h5>
+          <p class="card-text">
+            O trabalho realizado entre as 22h de um dia e as 5h do dia seguinte é considerado noturno (em áreas urbanas) e deve ser pago
+            com, no mínimo, 20% a mais do que o valor da hora diurna.
+          </p>
+          <p class="card-text">
+            Outro detalhe é que a hora noturna é "reduzida": 52 minutos e 30 segundos de trabalho equivalem a 1 hora normal. Ou seja, você
+            trabalha menos tempo para completar a jornada.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100 border-warning">
+        <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
+          <img src="\content\images\CLT12.svg" class="img-fluid w-75 my-3" alt="Lua e 20% de adicional" />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
